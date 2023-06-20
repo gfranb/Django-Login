@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <form action="/login/" method="POST">
+        <form action="/accounts/login/" method="POST">
             {% csrf_token %}
             {{ login_form }}
             <input type="submit" value="Submit">
         </form>
         <button>
-            <a href="/register/">Sign In</a>
+            <a href="/accounts/register/">Sign In</a>
         </button>
     </body>
 </html>

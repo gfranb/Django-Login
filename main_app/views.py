@@ -12,4 +12,4 @@ def main_page(request):
 def logout_user(request):
     logout(request)
     print(request.user)
-    return redirect("/login/")
+    return redirect("/accounts/login/")

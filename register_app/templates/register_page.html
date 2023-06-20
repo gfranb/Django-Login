@@ -10,10 +10,13 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <form action="/register/" method="POST">
+        <form action="/accounts/register/" method="POST">
             {% csrf_token %}
             {{ register_form }}
             <input type="submit" value="Submit">
         </form>
+        <button>
+            <a href="/accounts/login/">Log In</a>
+        </button>
     </body>
 </html>

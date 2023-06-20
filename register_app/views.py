@@ -13,7 +13,7 @@ def register_user(request):
             last_name=request.POST["last_name"],
             )
         new_user.save()
-        return redirect("/login/")
+        return redirect("/accounts/login/")
     else:
         return render(request, "register_page.html", {
             'register_form' : CreateNewUser
