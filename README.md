@@ -5,11 +5,11 @@ This project is a login system implemented with Django. The main objective is to
 Project Structure
 The project is organized into three main applications:
 
-    📦 User Registration: This application handles the registration of new users. It allows users to create an account by providing their personal information.
-    
-    🔐 Login: In this application, users can log in to the system using their previously registered credentials. It provides an authentication layer to protect access to each user's account.
-    
-    🌐 Main Page: This application represents the system's main page, which users can access after successfully logging in. It displays the main content and functionalities of the system.
+📦 User Registration: This application handles the registration of new users. It allows users to create an account by providing their personal information.
+
+🔐 Login: In this application, users can log in to the system using their previously registered credentials. It provides an authentication layer to protect access to each user's account.
+
+🌐 Main Page: This application represents the system's main page, which users can access after successfully logging in. It displays the main content and functionalities of the system.
 
 Each application has its own file structure with specific models, views, templates, and static files.
 
