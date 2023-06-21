@@ -25,10 +25,10 @@ Setup
 
 3- Run the following command to start the Django development server:
 
-        python manage.py runserver
+    python manage.py runserver
 Access the application in your web browser using the following URL:
 
-        http://localhost:8000/
+    http://localhost:8000/
     
 Now you can register as a new user, log in, and explore the system's functionalities.
 
